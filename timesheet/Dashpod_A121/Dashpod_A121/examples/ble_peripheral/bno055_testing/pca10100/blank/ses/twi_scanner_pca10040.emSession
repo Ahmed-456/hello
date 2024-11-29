@@ -1,0 +1,45 @@
+<!DOCTYPE CrossStudio_Session_File>
+<session>
+ <Bookmarks/>
+ <Breakpoints groups="Breakpoints" active_group="Breakpoints"/>
+ <ExecutionProfileWindow/>
+ <FrameBuffer/>
+ <Memory1/>
+ <Memory2/>
+ <Memory3/>
+ <Memory4/>
+ <Project>
+  <ProjectSessionItem path="bno055_testing"/>
+  <ProjectSessionItem path="bno055_testing;bno055_testing"/>
+  <ProjectSessionItem path="bno055_testing;bno055_testing;Application"/>
+  <ProjectSessionItem path="bno055_testing;bno055_testing;nRF_Drivers"/>
+  <ProjectSessionItem path="bno055_testing;bno055_testing;nRF_Segger_RTT"/>
+ </Project>
+ <Register1/>
+ <Register2/>
+ <Register3/>
+ <Register4/>
+ <Threads>
+  <ThreadsWindow showLists=""/>
+ </Threads>
+ <TraceWindow>
+  <Trace enabled="Yes"/>
+ </TraceWindow>
+ <Watch1>
+  <Watches active="1" update="Never"/>
+ </Watch1>
+ <Watch2>
+  <Watches active="0" update="Never"/>
+ </Watch2>
+ <Watch3>
+  <Watches active="0" update="Never"/>
+ </Watch3>
+ <Watch4>
+  <Watches active="0" update="Never"/>
+ </Watch4>
+ <Files>
+  <SessionOpenFile windowGroup="DockEditLeft" x="15" y="112" useTextEdit="1" path="../../../main.c" left="0" selected="1" top="105" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="42" y="98" useTextEdit="1" path="../../../../../../external/segger_rtt/SEGGER_RTT_Syscalls_SES.c" left="0" top="98" codecName="Default"/>
+ </Files>
+ <EMStudioWindow activeProject="bno055_testing" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+</session>

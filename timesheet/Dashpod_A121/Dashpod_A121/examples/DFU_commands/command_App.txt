@@ -1,0 +1,18 @@
+For private key genaration:
+./nrfutil keys generate private.key
+
+For public key generation:
+./nrfutil keys display --key pk --format code private.key --out_file public_key.c
+
+
+10/05/2024 (Linux)
+./nrfutil pkg generate --hw-version 52 --application-version 1 --application ./Dashpod_DFU_A121_S140.hex --sd-req 0x100 --sd-id 0x100 --key-file ./private.key Dashpod_ZIP/Dashpod_v3.0.zip
+
+10/05/2024 (Windows)
+.\nrfutil pkg generate --hw-version 52 --application-version 1 --application .\Dashpod_DFU_A121_S140.hex --sd-req 0x100 --sd-id 0x100 --key-file .\private.key Dashpod_ZIP\Dashpod_v3.0.zip
+
+31/08/2024 (Linux)
+./nrfutil pkg generate --hw-version 52 --application-version 1 --application ./Dashpod_DFU_A121_S140.hex --sd-req 0x100 --sd-id 0x100 --key-file ./private.key Dashpod_ZIP/Dashpod_v3.02.zip
+
+06/09/2024 (Linux)
+./nrfutil pkg generate --hw-version 52 --application-version 1 --application ./Dashpod_DFU_A121_S140.hex --sd-req 0x100 --sd-id 0x100 --key-file ./private.key Dashpod_ZIP/Dashpod_v3.03.zip
